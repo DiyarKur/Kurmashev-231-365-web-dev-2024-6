@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Startup</title>
+    <!-- Подключаем Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://libs.cdnjs.net/font-awesome/6.0.0/css/all.min.css">
+    <!-- Подключаем наш стиль -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-6">
+            <!-- Блок с названием проекта и описанием -->
+            <h1>ГидВокруг</h1>
+            <p class="lead">Наша компания "ГидВокруг" специализируется на организации пеших туристических маршрутов по Москве. Мы предлагаем широкий выбор экскурсий с опытными гидами, владеющими различными языками, чтобы сделать ваше путешествие максимально комфортным. Наши гиды имеют профессиональные знания и являются идеальными проводниками в мир истории, культуры и архитектуры Москвы. Мы также предлагаем возможность собственной индивидуальной настройки маршрута для того, чтобы удовлетворить потребности каждого клиента. Наша цель - сделать ваше путешествие запоминающимся и незабываемым!</p>
+            <!-- Дополнительная информация о проекте -->
+            <div class="feature-item">
+                <h3>Особенности:</h3>
+                <ul>
+                    <li>Клиентоориентированность</li>
+                    <li>Актуальные Маршруты</li>
+                    <li>Прогулки по паркам</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <!-- Картинка для привлечения внимания -->
+            <img src="moscow.jpg" alt="Москва" class="img-fluid">
+        </div>
+    </div>
+    <hr>
+    <!-- Блок с формой обратной связи и контактами -->
+    <div class="row">
+        <div class="col-lg-6">
+            <h2>Свяжитесь с нами</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Ваше имя</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Ваш Email</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Сообщение</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Отправить</button>
+            </form>
+        </div>
+        <div class="col-lg-6">
+            <h2>Контакты</h2>
+            <p>Email: diyar@kurmashev.com</p>
+            <p>Phone: +1234567890</p>
+            <!-- Дополнительная контактная информация -->
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
